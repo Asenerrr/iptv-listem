@@ -1,137 +1,141 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" name="Turksat TKGS Sirali Liste"
-#EXTINF:-1 tvg-chno="1" tvg-id="TRT.1.HD.tr" tvg-name="TRT 1 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",TRT 1 HD
+#EXTINF:-1 tvg-chno="1" tvg-id="TRT.1.HD.tr" tvg-name="TRT 1 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="ATV.HD.tr" tvg-name="ATV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atv_logo.svg/800px-Atv_logo.svg.png",ATV HD
-https://trn03.tulix.tv/gt-atv-live/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="3" tvg-id="KANAL.D.HD.tr" tvg-name="KANAL D HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kanal_D_logo.svg/800px-Kanal_D_logo.svg.png",KANAL D HD
+#EXTINF:-1 tvg-chno="2" tvg-id="ATV.HD.tr" tvg-name="ATV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atv_logo.svg/800px-Atv_logo.svg.png",ATV HD
+http://212.186.45.34:9981/stream/channelid/692531719?profile=pass
+#EXTINF:-1 tvg-chno="3" tvg-id="KANAL.D.HD.tr" tvg-name="KANAL D HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kanal_D_logo.svg/800px-Kanal_D_logo.svg.png",KANAL D HD
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 tvg-chno="4" tvg-id="SHOW.TV.HD.tr" tvg-name="SHOW TV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Show_TV_logo_%282021%29.svg/800px-Show_TV_logo_%282021%29.svg.png",SHOW TV HD
+#EXTINF:-1 tvg-chno="4" tvg-id="SHOW.TV.HD.tr" tvg-name="SHOW TV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Show_TV_logo_%282021%29.svg/800px-Show_TV_logo_%282021%29.svg.png",SHOW TV HD
 https://trn03.tulix.tv/gt-shows-tv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="5" tvg-id="STAR.TV.HD.tr" tvg-name="STAR TV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Star_TV_logo.svg/800px-Star_TV_logo.svg.png",STAR TV HD
+#EXTINF:-1 tvg-chno="5" tvg-id="STAR.TV.HD.tr" tvg-name="STAR TV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Star_TV_logo.svg/800px-Star_TV_logo.svg.png",STAR TV HD
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-chno="6" tvg-id="TV8.HD.tr" tvg-name="TV8 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png",TV8 HD
+#EXTINF:-1 tvg-chno="6" tvg-id="TV8.HD.tr" tvg-name="TV8 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png",TV8 HD
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 tvg-chno="7" tvg-id="FOX.HD.tr" tvg-name="NOW TV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Now_T%C3%BCrkiye_Logo.png/800px-Now_T%C3%BCrkiye_Logo.png",NOW TV HD
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="KANAL.7.HD.tr" tvg-name="KANAL 7 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kanal_7_logo.svg/800px-Kanal_7_logo.svg.png",KANAL 7 HD
+#EXTINF:-1 tvg-chno="7" tvg-id="FOX.HD.tr" tvg-name="NOW TV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Now_T%C3%BCrkiye_Logo.png/800px-Now_T%C3%BCrkiye_Logo.png",NOW TV HD
+https://s18.imglink.pro/md/ITuyYxWirF50nTHhGJ9fMF50nTHhEz94YzShMP50nTHhFT9lp2HhZwNlZv5KEHVgERjhZGN4ZUNhESIOGNd0zxnJ1aoTyhnl5jpz8s0xi18vr1
+#EXTINF:-1 tvg-chno="8" tvg-id="KANAL.7.HD.tr" tvg-name="KANAL 7 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kanal_7_logo.svg/800px-Kanal_7_logo.svg.png",KANAL 7 HD
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="BEYAZ.TV.HD.tr" tvg-name="BEYAZ TV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Beyaz_TV_logo.svg/800px-Beyaz_TV_logo.svg.png",BEYAZ TV HD
+#EXTINF:-1 tvg-chno="9" tvg-id="BEYAZ.TV.HD.tr" tvg-name="BEYAZ TV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Beyaz_TV_logo.svg/800px-Beyaz_TV_logo.svg.png",BEYAZ TV HD
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="A2.HD.tr" tvg-name="A2 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",A2 HD
+#EXTINF:-1 tvg-chno="10" tvg-id="A2.HD.tr" tvg-name="A2 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",A2 HD
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="TEVE2.HD.tr" tvg-name="TEVE2 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Teve2_logo.png/800px-Teve2_logo.png",TEVE2 HD
-https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="360.HD.tr" tvg-name="360 TV HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/360_TV_Logo.png/800px-360_TV_Logo.png",360 TV HD
+#EXTINF:-1 tvg-chno="11" tvg-id="TEVE2.HD.tr" tvg-name="TEVE2 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Teve2_logo.png/800px-Teve2_logo.png",TEVE2 HD
+https://7nyaler.streamhostingcdn.top/stream/57/index.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="360.HD.tr" tvg-name="360 TV HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/360_TV_Logo.png/800px-360_TV_Logo.png",360 TV HD
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="TVT.tr" tvg-name="TV4 HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/TV4_logo.png/800px-TV4_logo.png",TV4 HD
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="TRT.1.HD.tr" tvg-name="TRT 4K ULTRA HD" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TRT_4K_logo_%282021-%29.svg/800px-TRT_4K_logo_%282021-%29.svg.png",TRT 4K ULTRA HD
+#EXTINF:-1 tvg-chno="15" tvg-id="TVT.tr" tvg-name="TV4 HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/TV4_logo.png/800px-TV4_logo.png",TV4 HD
+https://trn03.tulix.tv/gt-tv4/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
+#EXTINF:-1 tvg-chno="16" tvg-id="TRT.1.HD.tr" tvg-name="TRT 4K ULTRA HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TRT_4K_logo_%282021-%29.svg/800px-TRT_4K_logo_%282021-%29.svg.png",TRT 4K ULTRA HD
 https://trn03.tulix.tv/gt-trt-4k/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="17" tvg-id="ATV.tr" tvg-name="ATV AVRUPA" group-title="1. TKGS - Ulusal" tvg-logo="https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png",ATV AVRUPA
+#EXTINF:-1 tvg-chno="17" tvg-id="ATV.tr" tvg-name="ATV AVRUPA" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png",ATV AVRUPA
 https://trn03.tulix.tv/gt-atv-avrupa-tv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="18" tvg-id="KANAL.D.tr" tvg-name="EURO D" group-title="1. TKGS - Ulusal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kanal_D_logo.svg/800px-Kanal_D_logo.svg.png",EURO D
+#EXTINF:-1 tvg-chno="18" tvg-id="KANAL.D.tr" tvg-name="EURO D" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kanal_D_logo.svg/800px-Kanal_D_logo.svg.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 tvg-chno="20" tvg-id="TRT.HABER.HD.tr" tvg-name="TRT HABER HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/800px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",TRT HABER HD
-https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="21" tvg-id="NTV.HD.tr" tvg-name="NTV HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ntv_logo.svg/800px-Ntv_logo.svg.png",NTV HD
+#EXTINF:-1 tvg-chno="20" tvg-id="TRT.HABER.HD.tr" tvg-name="TRT HABER HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/800px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",TRT HABER HD
+https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-chno="21" tvg-id="NTV.HD.tr" tvg-name="NTV HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ntv_logo.svg/800px-Ntv_logo.svg.png",NTV HD
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 tvg-chno="22" tvg-id="CNN.TÜRK.HD.tr" tvg-name="CNN TÜRK HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/CNN_T%C3%BCrk_logo.svg/800px-CNN_T%C3%BCrk_logo.svg.png",CNN TÜRK HD
+#EXTINF:-1 tvg-chno="22" tvg-id="CNN.TÜRK.HD.tr" tvg-name="CNN TÜRK HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/CNN_T%C3%BCrk_logo.svg/800px-CNN_T%C3%BCrk_logo.svg.png",CNN TÜRK HD
 https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="23" tvg-id="HABERTÜRK.tr" tvg-name="HABERTÜRK HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Habert%C3%BCrk_logo.svg/800px-Habert%C3%BCrk_logo.svg.png",HABERTÜRK HD
+#EXTINF:-1 tvg-chno="23" tvg-id="HABERTÜRK.tr" tvg-name="HABERTÜRK HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Habert%C3%BCrk_logo.svg/800px-Habert%C3%BCrk_logo.svg.png",HABERTÜRK HD
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
-#EXTINF:-1 tvg-chno="24" tvg-id="A.HABER.HD.tr" tvg-name="A HABER HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png",A HABER HD
+#EXTINF:-1 tvg-chno="24" tvg-id="A.HABER.HD.tr" tvg-name="A HABER HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png",A HABER HD
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 tvg-chno="26" tvg-id="HALK.TV.tr" tvg-name="HALK TV HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Halk_TV_logo.svg/800px-Halk_TV_logo.svg.png",HALK TV HD
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 tvg-chno="27" tvg-id="TELE1.tr" tvg-name="TELE1 HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tele1_logo.png/800px-Tele1_logo.png",TELE1 HD
+#EXTINF:-1 tvg-chno="26" tvg-id="HALK.TV.tr" tvg-name="HALK TV HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Halk_TV_logo.svg/800px-Halk_TV_logo.svg.png",HALK TV HD
+https://trn03.tulix.tv/gt-halk-tvs/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
+#EXTINF:-1 tvg-chno="27" tvg-id="TELE1.tr" tvg-name="TELE1 HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tele1_logo.png/800px-Tele1_logo.png",TELE1 HD
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 tvg-chno="28" tvg-id="TV100.tr" tvg-name="TV100 HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tv100_logo.png/800px-Tv100_logo.png",TV100 HD
+#EXTINF:-1 tvg-chno="28" tvg-id="TV100.tr" tvg-name="TV100 HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tv100_logo.png/800px-Tv100_logo.png",TV100 HD
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
-#EXTINF:-1 tvg-chno="30" tvg-id="24.TV.tr" tvg-name="24 TV HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/24_TV_Logo.png/800px-24_TV_Logo.png",24 TV HD
+#EXTINF:-1 tvg-chno="30" tvg-id="24.TV.tr" tvg-name="24 TV HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/24_TV_Logo.png/800px-24_TV_Logo.png",24 TV HD
 https://5f22d76e220e1.streamlock.net/canale1/canale1/playlist.m3u8
-#EXTINF:-1 tvg-chno="31" tvg-id="ÜLKE.TV.HD.tr" tvg-name="ÜLKE TV HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Clke_TV_logo.png/800px-%C3%9Clke_TV_logo.png",ÜLKE TV HD
+#EXTINF:-1 tvg-chno="31" tvg-id="ÜLKE.TV.HD.tr" tvg-name="ÜLKE TV HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Clke_TV_logo.png/800px-%C3%9Clke_TV_logo.png",ÜLKE TV HD
 https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="32" tvg-id="TGRT.HABER.tr" tvg-name="TGRT HABER HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TGRT_Haber_logo.svg/800px-TGRT_Haber_logo.svg.png",TGRT HABER HD
+#EXTINF:-1 tvg-chno="32" tvg-id="TGRT.HABER.tr" tvg-name="TGRT HABER HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TGRT_Haber_logo.svg/800px-TGRT_Haber_logo.svg.png",TGRT HABER HD
 https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 tvg-chno="33" tvg-id="TVNET.HD.tr" tvg-name="TVNET HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TVNET_logo.png/800px-TVNET_logo.png",TVNET HD
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/chunklist_1080p.m3u8
-#EXTINF:-1 tvg-chno="35" tvg-id="TRT.WORLD.HD.tr" tvg-name="TRT WORLD HD" group-title="2. TKGS - Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TRT_World_logo.svg/800px-TRT_World_logo.svg.png",TRT WORLD HD
+#EXTINF:-1 tvg-chno="33" tvg-id="TVNET.HD.tr" tvg-name="TVNET HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/TVNET_logo.png/800px-TVNET_logo.png",TVNET HD
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-chno="35" tvg-id="TRT.WORLD.HD.tr" tvg-name="TRT WORLD HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TRT_World_logo.svg/800px-TRT_World_logo.svg.png",TRT WORLD HD
 https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="40" tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT SPOR HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TRT_Spor_logo_%282021-%29.svg/800px-TRT_Spor_logo_%282021-%29.svg.png",TRT SPOR HD
+#EXTINF:-1 tvg-chno="40" tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT SPOR HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TRT_Spor_logo_%282021-%29.svg/800px-TRT_Spor_logo_%282021-%29.svg.png",TRT SPOR HD
 https://corestream.siteyaptim.live/trt-spor/index.m3u8
-#EXTINF:-1 tvg-chno="41" tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT SPOR YILDIZ HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/800px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png",TRT SPOR YILDIZ HD
+#EXTINF:-1 tvg-chno="41" tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT SPOR YILDIZ HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/800px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png",TRT SPOR YILDIZ HD
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
-#EXTINF:-1 tvg-chno="42" tvg-id="A.SPOR.tr" tvg-name="A SPOR HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://i.imgur.com/ZhkZzLf.png",A SPOR HD
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-chno="43" tvg-id="TV8.HD.tr" tvg-name="TV8.5 HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/TV8_5_Logo.png/800px-TV8_5_Logo.png",TV8.5 HD
+#EXTINF:-1 tvg-chno="42" tvg-id="A.SPOR.tr" tvg-name="A SPOR HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://i.imgur.com/ZhkZzLf.png",A SPOR HD
+https://trn03.tulix.tv/gt-aspor/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
+#EXTINF:-1 tvg-chno="43" tvg-id="TV8.HD.tr" tvg-name="TV8.5 HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/TV8_5_Logo.png/800px-TV8_5_Logo.png",TV8.5 HD
 https://trn03.tulix.tv/gt-tv8_5/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="49" tvg-id="ORFSportPlus.at" tvg-name="ORF SPORT HD (Avusturya)" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ORF_1_logo.svg/800px-ORF_1_logo.svg.png",ORF SPORT HD (Avusturya)
-https://7nyaler.streamhostingcdn.top/stream/50/index.m3u8
-#EXTINF:-1 tvg-chno="51" tvg-id="1TV.ge" tvg-name="1TV GEORGIA HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1TV_Georgia_Logo.png/800px-1TV_Georgia_Logo.png",1TV GEORGIA HD
-https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
-#EXTINF:-1 tvg-chno="52" tvg-id="FENERBAHÇE.TV.tr" tvg-name="FB TV HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fenerbah%C3%A7e_TV_logo.png/800px-Fenerbah%C3%A7e_TV_logo.png",FB TV HD
+#EXTINF:-1 tvg-chno="46" tvg-id="FENERBAHÇE.TV.tr" tvg-name="FB TV HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fenerbah%C3%A7e_TV_logo.png/800px-Fenerbah%C3%A7e_TV_logo.png",FB TV HD
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="53" tvg-id="SPORTS.TV.tr" tvg-name="SPORTS TV HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sports_TV_logo.png/800px-Sports_TV_logo.png",SPORTS TV HD
-https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-chno="54" tvg-id="TJK.tr" tvg-name="TJK TV HD" group-title="3. TKGS & Avrupa Spor" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/TJK_TV_logo.png/800px-TJK_TV_logo.png",TJK TV HD
+#EXTINF:-1 tvg-chno="47" tvg-id="SPORTS.TV.tr" tvg-name="SPORTS TV HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sports_TV_logo.png/800px-Sports_TV_logo.png",SPORTS TV HD
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-chno="48" tvg-id="TJK.tr" tvg-name="TJK TV HD" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/TJK_TV_logo.png/800px-TJK_TV_logo.png",TJK TV HD
 https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 tvg-chno="60" tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT BELGESEL HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/800px-TRT_Belgesel_logo_%282019-%29.svg.png",TRT BELGESEL HD
+#EXTINF:-1 tvg-chno="52" tvg-id="ORFSportPlus.at" tvg-name="ORF SPORT HD (Avusturya)" group-title="3. TKGS - Spor Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ORF_1_logo.svg/800px-ORF_1_logo.svg.png",ORF SPORT HD (Avusturya)
+https://7nyaler.streamhostingcdn.top/stream/50/index.m3u8
+#EXTINF:-1 tvg-chno="60" tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT BELGESEL HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/800px-TRT_Belgesel_logo_%282019-%29.svg.png",TRT BELGESEL HD (TR)
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="61" tvg-id="NATIONAL.GEOGRAPHIC.HD.tr" tvg-name="NATIONAL GEOGRAPHIC HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/800px-Natgeologo.svg.png",NATIONAL GEOGRAPHIC HD
-http://88.212.15.19/live/test_ngc/playlist.m3u8
-#EXTINF:-1 tvg-chno="63" tvg-id="DiscoveryChannel.tr" tvg-name="DISCOVERY CHANNEL HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Discovery_Channel_2019.svg/800px-Discovery_Channel_2019.svg.png",DISCOVERY CHANNEL HD
+#EXTINF:-1 tvg-chno="61" tvg-id="NATIONAL.GEOGRAPHIC.HD.tr" tvg-name="NATIONAL GEOGRAPHIC HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/800px-Natgeologo.svg.png",NATIONAL GEOGRAPHIC HD (TR)
+http://88.212.15.19/live/ngc_hun/index.m3u8
+#EXTINF:-1 tvg-chno="63" tvg-id="DiscoveryChannel.tr" tvg-name="DISCOVERY CHANNEL HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Discovery_Channel_2019.svg/800px-Discovery_Channel_2019.svg.png",DISCOVERY CHANNEL HD (TR)
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-chno="65" tvg-id="BBCEarth.tr" tvg-name="BBC EARTH HD" group-title="4. Belgesel & Doğa" tvg-logo="https://i.imgur.com/nGSsUd4.png",BBC EARTH HD
+#EXTINF:-1 tvg-chno="65" tvg-id="BBCEarth.tr" tvg-name="BBC EARTH HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://i.imgur.com/nGSsUd4.png",BBC EARTH HD (TR)
 http://88.212.15.29/live/test_bbc_eartch_hevc/playlist.m3u8
-#EXTINF:-1 tvg-chno="66" tvg-id="HistoryChannel.tr" tvg-name="HISTORY CHANNEL HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/800px-History_%282021%29.svg.png",HISTORY CHANNEL HD
+#EXTINF:-1 tvg-chno="66" tvg-id="HistoryChannel.tr" tvg-name="HISTORY CHANNEL HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/800px-History_%282021%29.svg.png",HISTORY CHANNEL HD (TR)
 http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
-#EXTINF:-1 tvg-chno="67" tvg-id="History2.tr" tvg-name="HISTORY 2 (H2) HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/800px-History2_logo_%282022%29.svg.png",HISTORY 2 (H2) HD
+#EXTINF:-1 tvg-chno="67" tvg-id="History2.tr" tvg-name="HISTORY 2 (H2) HD (TR)" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/800px-History2_logo_%282022%29.svg.png",HISTORY 2 (H2) HD (TR)
 http://138.121.15.230:9002/HISTORY-2/index.m3u8
-#EXTINF:-1 tvg-chno="70" tvg-id="VIASAT.NATURE.-.HISTORY.tr" tvg-name="VIASAT NATURE HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Viasat_Nature_logo.svg/800px-Viasat_Nature_logo.svg.png",VIASAT NATURE HD
+#EXTINF:-1 tvg-chno="70" tvg-id="VIASAT.NATURE.-.HISTORY.tr" tvg-name="VIASAT NATURE HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Viasat_Nature_logo.svg/800px-Viasat_Nature_logo.svg.png",VIASAT NATURE HD
 http://88.212.15.29/live/test_viasat_nature_atk_tv/playlist.m3u8
-#EXTINF:-1 tvg-chno="71" tvg-id="VIASAT.NATURE.-.HISTORY.tr" tvg-name="VIASAT HISTORY HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Viasat_History_logo.svg/800px-Viasat_History_logo.svg.png",VIASAT HISTORY HD
+#EXTINF:-1 tvg-chno="71" tvg-id="VIASAT.NATURE.-.HISTORY.tr" tvg-name="VIASAT HISTORY HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Viasat_History_logo.svg/800px-Viasat_History_logo.svg.png",VIASAT HISTORY HD
 http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12101/index.m3u8
-#EXTINF:-1 tvg-chno="72" tvg-id="VIASAT.EXPLORE.tr" tvg-name="VIASAT EXPLORE HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Viasat_Explore_logo.svg/800px-Viasat_Explore_logo.svg.png",VIASAT EXPLORE HD
+#EXTINF:-1 tvg-chno="72" tvg-id="VIASAT.EXPLORE.tr" tvg-name="VIASAT EXPLORE HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Viasat_Explore_logo.svg/800px-Viasat_Explore_logo.svg.png",VIASAT EXPLORE HD
 http://88.212.15.29/live/test_viasat_explore_atk_tv/playlist.m3u8
-#EXTINF:-1 tvg-chno="73" tvg-id="TRT.2.tr" tvg-name="TRT 2 KÜLTÜR SANAT HD" group-title="4. Belgesel & Doğa" tvg-logo="https://i.imgur.com/iOCQdyD.png",TRT 2 KÜLTÜR SANAT HD
+#EXTINF:-1 tvg-chno="73" tvg-id="TRT.2.tr" tvg-name="TRT 2 KÜLTÜR SANAT HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://i.imgur.com/iOCQdyD.png",TRT 2 KÜLTÜR SANAT HD
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="74" tvg-id="DiyanetTV.tr" tvg-name="DİYANET TV HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Diyanet_TV_logo.png/800px-Diyanet_TV_logo.png",DİYANET TV HD
+#EXTINF:-1 tvg-chno="74" tvg-id="DiyanetTV.tr" tvg-name="DİYANET TV HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Diyanet_TV_logo.png/800px-Diyanet_TV_logo.png",DİYANET TV HD
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="75" tvg-id="TRT.TÜRK.tr" tvg-name="TRT TÜRK HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/800px-TRT_T%C3%BCrk_logo.svg.png",TRT TÜRK HD
+#EXTINF:-1 tvg-chno="75" tvg-id="TRT.TÜRK.tr" tvg-name="TRT TÜRK HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/800px-TRT_T%C3%BCrk_logo.svg.png",TRT TÜRK HD
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="76" tvg-id="TRT.AVAZ.HD.tr" tvg-name="TRT AVAZ HD" group-title="4. Belgesel & Doğa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/800px-TRT_Avaz_logo.svg.png",TRT AVAZ HD
+#EXTINF:-1 tvg-chno="76" tvg-id="TRT.AVAZ.HD.tr" tvg-name="TRT AVAZ HD" group-title="4. Belgesel & Doğa Dünyası" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/800px-TRT_Avaz_logo.svg.png",TRT AVAZ HD
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="80" tvg-id="TRT.ÇOCUK.tr" tvg-name="TRT ÇOCUK HD" group-title="5. TKGS - Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/800px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",TRT ÇOCUK HD
-https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="81" tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="MİNİKA ÇOCUK HD" group-title="5. TKGS - Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Minika_%C3%87ocuk_logo.png/800px-Minika_%C3%87ocuk_logo.png",MİNİKA ÇOCUK HD
+#EXTINF:-1 tvg-chno="80" tvg-id="TRT.ÇOCUK.tr" tvg-name="TRT ÇOCUK HD" group-title="5. TKGS - Çocuk & Çizgi Film" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/800px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",TRT ÇOCUK HD
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-chno="81" tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="MİNİKA ÇOCUK HD" group-title="5. TKGS - Çocuk & Çizgi Film" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Minika_%C3%87ocuk_logo.png/800px-Minika_%C3%87ocuk_logo.png",MİNİKA ÇOCUK HD
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 tvg-chno="82" tvg-id="MİNİKA.GO.tr" tvg-name="MİNİKA GO HD" group-title="5. TKGS - Çocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Minika_GO_logo.png/800px-Minika_GO_logo.png",MİNİKA GO HD
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 tvg-chno="84" tvg-id="BABY.TV.tr" tvg-name="BABY TV" group-title="5. TKGS - Çocuk" tvg-logo="https://i.imgur.com/4BDJ5FT.png",BABY TV
+#EXTINF:-1 tvg-chno="82" tvg-id="MİNİKA.GO.tr" tvg-name="MİNİKA GO HD" group-title="5. TKGS - Çocuk & Çizgi Film" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Minika_GO_logo.png/800px-Minika_GO_logo.png",MİNİKA GO HD
+https://trn03.tulix.tv/gt-minikago/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
+#EXTINF:-1 tvg-chno="84" tvg-id="BABY.TV.tr" tvg-name="BABY TV" group-title="5. TKGS - Çocuk & Çizgi Film" tvg-logo="https://i.imgur.com/4BDJ5FT.png",BABY TV
 https://saran-live.ercdn.net/babytv/index.m3u8
-#EXTINF:-1 tvg-chno="85" tvg-id="TRT.ÇOCUK.tr" tvg-name="DİYANET ÇOCUK HD" group-title="5. TKGS - Çocuk" tvg-logo="https://i.imgur.com/8PmXz9t.png",DİYANET ÇOCUK HD
+#EXTINF:-1 tvg-chno="85" tvg-id="TRT.ÇOCUK.tr" tvg-name="DİYANET ÇOCUK HD" group-title="5. TKGS - Çocuk & Çizgi Film" tvg-logo="https://i.imgur.com/8PmXz9t.png",DİYANET ÇOCUK HD
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="90" tvg-id="TRT.MÜZİK.tr" tvg-name="TRT MÜZİK HD" group-title="6. TKGS - Müzik" tvg-logo="https://i.imgur.com/JgUzRH8.png",TRT MÜZİK HD
+#EXTINF:-1 tvg-chno="90" tvg-id="TRT.MÜZİK.tr" tvg-name="TRT MÜZİK HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://i.imgur.com/JgUzRH8.png",TRT MÜZİK HD
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="91" tvg-id="POWER.TV.HD.tr" tvg-name="POWER TÜRK HD" group-title="6. TKGS - Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/PowerT%C3%BCrk_TV_logo.png/800px-PowerT%C3%BCrk_TV_logo.png",POWER TÜRK HD
-https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="92" tvg-id="POWER.TV.HD.tr" tvg-name="POWER TV HD" group-title="6. TKGS - Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Power_TV_logo.png/800px-Power_TV_logo.png",POWER TV HD
+#EXTINF:-1 tvg-chno="91" tvg-id="POWER.TV.HD.tr" tvg-name="POWER TÜRK HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/PowerT%C3%BCrk_TV_logo.png/800px-PowerT%C3%BCrk_TV_logo.png",POWER TÜRK HD
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-chno="92" tvg-id="POWER.TV.HD.tr" tvg-name="POWER TV HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Power_TV_logo.png/800px-Power_TV_logo.png",POWER TV HD
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="93" tvg-id="KralPop.tr" tvg-name="KRAL POP TV HD" group-title="6. TKGS - Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kral_Pop_TV_logo.png/800px-Kral_Pop_TV_logo.png",KRAL POP TV HD
+#EXTINF:-1 tvg-chno="93" tvg-id="KralPop.tr" tvg-name="KRAL POP TV HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kral_Pop_TV_logo.png/800px-Kral_Pop_TV_logo.png",KRAL POP TV HD
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-chno="96" tvg-id="NumberOne.tr" tvg-name="NUMBER 1 TV HD" group-title="6. TKGS - Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Number_1_TV_logo.png/800px-Number_1_TV_logo.png",NUMBER 1 TV HD
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-chno="97" tvg-id="DREAM.TV.tr" tvg-name="DREAM TÜRK HD" group-title="6. TKGS - Müzik" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dream_T%C3%BCrk_logo.png/800px-Dream_T%C3%BCrk_logo.png",DREAM TÜRK HD
+#EXTINF:-1 tvg-chno="96" tvg-id="NumberOne.tr" tvg-name="NUMBER 1 TV HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Number_1_TV_logo.png/800px-Number_1_TV_logo.png",NUMBER 1 TV HD
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 tvg-chno="97" tvg-id="DREAM.TV.tr" tvg-name="DREAM TÜRK HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dream_T%C3%BCrk_logo.png/800px-Dream_T%C3%BCrk_logo.png",DREAM TÜRK HD
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-chno="150" tvg-id="BRT.1.HD.tr" tvg-name="BRT 1 HD (Kıbrıs)" group-title="7. Kıbrıs & Azerbaycan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BRT_1_logo.png/800px-BRT_1_logo.png",BRT 1 HD (Kıbrıs)
+#EXTINF:-1 tvg-chno="150" tvg-id="BRT.1.HD.tr" tvg-name="BRT 1 HD (Kıbrıs)" group-title="10. Kıbrıs, Azerbaycan & Dünya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BRT_1_logo.png/800px-BRT_1_logo.png",BRT 1 HD (Kıbrıs)
 https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8
-#EXTINF:-1 tvg-chno="151" tvg-id="BRT.1.tr" tvg-name="BRT 2 HD (Kıbrıs)" group-title="7. Kıbrıs & Azerbaycan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/BRT_2_logo.png/800px-BRT_2_logo.png",BRT 2 HD (Kıbrıs)
+#EXTINF:-1 tvg-chno="151" tvg-id="BRT.1.tr" tvg-name="BRT 2 HD (Kıbrıs)" group-title="10. Kıbrıs, Azerbaycan & Dünya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/BRT_2_logo.png/800px-BRT_2_logo.png",BRT 2 HD (Kıbrıs)
 https://edge.kuzeykibrissmart.tv/brt2hd/bant1/chunks.m3u8
-#EXTINF:-1 tvg-chno="153" tvg-id="KibrisTV.tr" tvg-name="KIBRIS TV" group-title="7. Kıbrıs & Azerbaycan",KIBRIS TV
+#EXTINF:-1 tvg-chno="153" tvg-id="KibrisTV.tr" tvg-name="KIBRIS TV" group-title="10. Kıbrıs, Azerbaycan & Dünya",KIBRIS TV
 https://play.kibristv.com/stream/hls/stream.m3u8
-#EXTINF:-1 tvg-chno="154" tvg-id="AZ.TV.1.tr" tvg-name="AzTV (Azerbaycan)" group-title="7. Kıbrıs & Azerbaycan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AzTV_logo.png/800px-AzTV_logo.png",AzTV (Azerbaycan)
+#EXTINF:-1 tvg-chno="154" tvg-id="AZ.TV.1.tr" tvg-name="AzTV (Azerbaycan)" group-title="10. Kıbrıs, Azerbaycan & Dünya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AzTV_logo.png/800px-AzTV_logo.png",AzTV (Azerbaycan)
 https://str.yodacdn.net/azertv/index.m3u8
-#EXTINF:-1 tvg-chno="155" tvg-id="SpaceTV.az" tvg-name="SPACE TV (Azerbaycan)" group-title="7. Kıbrıs & Azerbaycan" tvg-logo="http://ginikoturkish.com/channels/logo/space-tv.jpg",SPACE TV (Azerbaycan)
+#EXTINF:-1 tvg-chno="155" tvg-id="SpaceTV.az" tvg-name="SPACE TV (Azerbaycan)" group-title="10. Kıbrıs, Azerbaycan & Dünya" tvg-logo="http://ginikoturkish.com/channels/logo/space-tv.jpg",SPACE TV (Azerbaycan)
 https://trn03.tulix.tv/gt-spacetv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="156" tvg-id="MedeniyyetTV.az" tvg-name="MƏDƏNİYYƏT TV (Azerbaycan)" group-title="7. Kıbrıs & Azerbaycan" tvg-logo="http://ginikoturkish.com/channels/logo/medeniyyet-tv.gif",MƏDƏNİYYƏT TV (Azerbaycan)
+#EXTINF:-1 tvg-chno="156" tvg-id="MedeniyyetTV.az" tvg-name="MƏDƏNİYYƏT TV (Azerbaycan)" group-title="10. Kıbrıs, Azerbaycan & Dünya" tvg-logo="http://ginikoturkish.com/channels/logo/medeniyyet-tv.gif",MƏDƏNİYYƏT TV (Azerbaycan)
 https://trn03.tulix.tv/gt-medeniyyet/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
+#EXTINF:-1 tvg-chno="100" tvg-name="(NL) Radio 538" group-title="10. Kıbrıs, Azerbaycan & Dünya",(NL) Radio 538
+https://playerservices.streamtheworld.com/api/livestream-redirect/radio538.mp3
+#EXTINF:-1 tvg-chno="101" tvg-name="(NL) Radio 538 DANCE" group-title="10. Kıbrıs, Azerbaycan & Dünya",(NL) Radio 538 DANCE
+https://playerservices.streamtheworld.com/api/livestream-redirect/tlpstr01.mp3
+#EXTINF:-1 tvg-chno="102" tvg-name="(NL) Radio 538 NONSTOP" group-title="10. Kıbrıs, Azerbaycan & Dünya",(NL) Radio 538 NONSTOP
+https://playerservices.streamtheworld.com/api/livestream-redirect/tlpstr09.mp3
