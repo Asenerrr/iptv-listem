@@ -352,8 +352,10 @@ def kanallari_tara_sirala_ve_filtrele(config):
                 "raw_group": item["kategori"]
             })
 
-    # 0.5 Adım: ucomist.net sunucusundan canlı spor ve belgesel kanallarını dinamik kazı ve ekle
-    print("\n[0.5/3] ucomist.net sunucusundan canlı spor ve Türkçe kanallar kazınıyor...")
+    # 0.5 Adım: Canlı maç ve spor yayıncılarından (Ucomist, Atomsport, Sporcafe, Selcuk, MSS) dinamik kazı ve ekleme
+    print("\n[0.5/3] Canlı maç yayıncıları ve sunucularından (Ucomist, Atomsport, Sporcafe, Selçuk) kanallar taranıyor...")
+    
+    # 1. Ucomist Cluster Kanalları
     for cid, info in UCOMIST_KANAL_HARITASI.items():
         ch_url = f"{UCOMIST_BASE}/{cid}/index.m3u8"
         tum_kanallar.append({
@@ -362,6 +364,50 @@ def kanallari_tara_sirala_ve_filtrele(config):
             "raw_name": info["ad"],
             "logo": "",
             "raw_group": info["kategori"]
+        })
+
+    # 2. Atomsport / Corestream Maç Kanalları
+    CANLI_MAC_SAGLAYICILARI = [
+        ("beIN SPORTS 1 HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-1.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS 1 HD (Yedek)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS 2 HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-2.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS 3 HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-3.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS 4 HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-4.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS 5 HD / MAX 1", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-5.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("S SPORT 1 HD (Premier Lig & La Liga)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/s-sport.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("S SPORT 2 HD (EuroLeague & Serie A)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TİVİBU SPOR 1 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-1.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TİVİBU SPOR 2 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-2.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TİVİBU SPOR 3 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-3.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TİVİBU SPOR 4 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-4.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("SMART SPOR 1 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("SMART SPOR 2 HD", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor-2.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("S SPORT PLUS 1 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sssplus1/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("S SPORT PLUS 2 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sssplus2/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("DAZN 1 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sdazn1/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("DAZN 2 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sdazn2/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("EUROSPORT 1 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/seurosport1/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("EUROSPORT 2 HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/seurosport2/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("UFC FIGHT PASS HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sufcfightpass/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("beIN SPORTS HABER HD", "https://cdn.tecostream.xyz/Bein_Spor_Haber.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("NetSpor beIN SPORTS 1 HD", "https://netspor.tecostream.xyz/bs1.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ TV HD (TRT)", "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TRT SPOR HD (Canlı Maç)", "https://tv-trtspor1.medya.trt.com.tr/master.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TRT SPOR YILDIZ HD", "https://tv-trtspor2.medya.trt.com.tr/master.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("A SPOR HD", "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TV8.5 HD (Şampiyonlar Ligi)", "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("EKOL SPORTS HD", "https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("HT SPOR HD", "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TJK TV HD", "https://tjktv-live.tjk.org/tjktv/tjktv.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+    ]
+
+    for ad, u, kat in CANLI_MAC_SAGLAYICILARI:
+        tum_kanallar.append({
+            "extinf": f'#EXTINF:-1 tvg-id="" tvg-logo="" group-title="{kat}",{ad}',
+            "url": u,
+            "raw_name": ad,
+            "logo": "",
+            "raw_group": kat
         })
 
     print(f"\n[1/3] Kaynak listeler taranıyor ({len(kaynaklar)} kaynak)...")
