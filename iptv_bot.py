@@ -302,6 +302,37 @@ def stream_test_et(kanal, timeout=2.5):
     return None
 
 
+UCOMIST_TOKEN = "V4ZVP6G52HVXDE"
+UCOMIST_BASE = f"http://463758a0.ucomist.net/iptv/{UCOMIST_TOKEN}"
+
+UCOMIST_KANAL_HARITASI = {
+    6816: {"ad": "beIN SPORTS HABER HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6817: {"ad": "beIN SPORTS 1 HD (Canlı Maç)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6818: {"ad": "beIN SPORTS 1 HD (Yedek)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6819: {"ad": "beIN SPORTS 2 HD (Canlı Maç)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6820: {"ad": "beIN SPORTS 3 HD (Canlı Maç)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6821: {"ad": "beIN SPORTS 4 HD (Canlı Maç)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6822: {"ad": "beIN SPORTS 5 HD / MAX 1", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6823: {"ad": "beIN SPORTS MAX 2 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6824: {"ad": "S SPORT 1 HD (Premier Lig & La Liga)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6825: {"ad": "S SPORT 2 HD (EuroLeague & Serie A)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6826: {"ad": "TİVİBU SPOR 1 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6827: {"ad": "TİVİBU SPOR 2 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6828: {"ad": "TİVİBU SPOR 3 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6829: {"ad": "TİVİBU SPOR 4 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6830: {"ad": "SMART SPOR 1 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6831: {"ad": "SMART SPOR 2 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6832: {"ad": "EUROSPORT 1 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6833: {"ad": "EUROSPORT 2 HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6834: {"ad": "NBA TV HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6835: {"ad": "FIGHT NETWORK HD", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    6863: {"ad": "DISCOVERY CHANNEL HD (Türkçe Dublaj)", "kategori": "4. Belgesel Dünyası (Türkçe Dublaj)"},
+    6804: {"ad": "beIN GURME HD", "kategori": "1. TKGS - Ulusal Kanallar"},
+    6811: {"ad": "MOVIE SMART TÜRK HD", "kategori": "7. Sinema & 7/24 Filmler"},
+    2000: {"ad": "UFC HD (Canlı Dövüş & Boks)", "kategori": "3. TKGS - Spor & Canlı Maç / UFC"},
+    2033: {"ad": "HISTORY 2 (H2) HD (Türkçe)", "kategori": "4. Belgesel Dünyası (Türkçe Dublaj)"},
+}
+
 def kanallari_tara_sirala_ve_filtrele(config):
     kaynaklar = config.get("kaynak_listeler", [])
     threads = config.get("ayarlar", {}).get("kontrol_thread_sayisi", 60)
@@ -320,6 +351,18 @@ def kanallari_tara_sirala_ve_filtrele(config):
                 "logo": item.get("logo", ""),
                 "raw_group": item["kategori"]
             })
+
+    # 0.5 Adım: ucomist.net sunucusundan canlı spor ve belgesel kanallarını dinamik kazı ve ekle
+    print("\n[0.5/3] ucomist.net sunucusundan canlı spor ve Türkçe kanallar kazınıyor...")
+    for cid, info in UCOMIST_KANAL_HARITASI.items():
+        ch_url = f"{UCOMIST_BASE}/{cid}/index.m3u8"
+        tum_kanallar.append({
+            "extinf": f'#EXTINF:-1 tvg-id="" tvg-logo="" group-title="{info["kategori"]}",{info["ad"]}',
+            "url": ch_url,
+            "raw_name": info["ad"],
+            "logo": "",
+            "raw_group": info["kategori"]
+        })
 
     print(f"\n[1/3] Kaynak listeler taranıyor ({len(kaynaklar)} kaynak)...")
     for k in kaynaklar:
