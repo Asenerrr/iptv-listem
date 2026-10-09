@@ -52,7 +52,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-chno="35" tvg-id="TRT.WORLD.HD.tr" tvg-name="TRT WORLD HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TRT_World_logo.svg/800px-TRT_World_logo.svg.png",TRT WORLD HD
 https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
 #EXTINF:-1 tvg-chno="40" tvg-id="beINSPORTS1.tr" tvg-name="beIN SPORTS 1 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 1 HD (Canlı Maç)
-https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-1.m3u8
 #EXTINF:-1 tvg-chno="41" tvg-id="beINSPORTS2.tr" tvg-name="beIN SPORTS 2 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 2 HD (Canlı Maç)
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-2.m3u8
 #EXTINF:-1 tvg-chno="42" tvg-id="beINSPORTS3.tr" tvg-name="beIN SPORTS 3 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 3 HD (Canlı Maç)
@@ -107,24 +107,24 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2033/index.m3u8
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="90" tvg-id="TRT.MÜZİK.tr" tvg-name="TRT MÜZİK HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://i.imgur.com/JgUzRH8.png",TRT MÜZİK HD
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="100" tvg-name="TİVİBU SPOR 4 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",TİVİBU SPOR 4 HD
-https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-4.m3u8
-#EXTINF:-1 tvg-chno="101" tvg-name="beIN SPORTS 5 HD / MAX 1" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS 5 HD / MAX 1
-https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-5.m3u8
-#EXTINF:-1 tvg-chno="102" tvg-name="SMART SPOR 1 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 1 HD
-https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor.m3u8
-#EXTINF:-1 tvg-chno="103" tvg-name="SMART SPOR 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 2 HD
+#EXTINF:-1 tvg-chno="100" tvg-name="SMART SPOR 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 2 HD
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor-2.m3u8
+#EXTINF:-1 tvg-chno="101" tvg-name="SMART SPOR 1 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 1 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor.m3u8
+#EXTINF:-1 tvg-chno="102" tvg-name="TİVİBU SPOR 4 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",TİVİBU SPOR 4 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-4.m3u8
+#EXTINF:-1 tvg-chno="103" tvg-name="beIN SPORTS 5 HD / MAX 1" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS 5 HD / MAX 1
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-5.m3u8
 #EXTINF:-1 tvg-chno="104" tvg-name="FIGHT NETWORK HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",FIGHT NETWORK HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6835/index.m3u8
-#EXTINF:-1 tvg-chno="105" tvg-name="beIN SPORTS HABER HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS HABER HD
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6816/index.m3u8
+#EXTINF:-1 tvg-chno="105" tvg-name="beIN SPORTS MAX 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS MAX 2 HD
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6823/index.m3u8
 #EXTINF:-1 tvg-chno="106" tvg-name="NBA TV HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",NBA TV HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6834/index.m3u8
-#EXTINF:-1 tvg-chno="107" tvg-name="beIN SPORTS MAX 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS MAX 2 HD
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6823/index.m3u8
-#EXTINF:-1 tvg-chno="108" tvg-name="beIN GURME HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN GURME HD
+#EXTINF:-1 tvg-chno="107" tvg-name="beIN GURME HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN GURME HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6804/index.m3u8
+#EXTINF:-1 tvg-chno="108" tvg-name="beIN SPORTS HABER HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS HABER HD
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6816/index.m3u8
 #EXTINF:-1 tvg-chno="109" tvg-name="MOVIE SMART TÜRK HD" group-title="7. Sinema & 7/24 Filmler",MOVIE SMART TÜRK HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6811/index.m3u8
 #EXTINF:-1 tvg-chno="110" tvg-name="BEYAZ TV HD" group-title="10. Dünya Spor & Eğlence Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Beyaz_TV_logo.svg/800px-Beyaz_TV_logo.svg.png",BEYAZ TV HD
