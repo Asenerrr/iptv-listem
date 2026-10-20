@@ -97,9 +97,14 @@ TKGS_ONCELIKLI_KANALLAR = [
     {"regex": r"\bTivibu\s*Spor\s*2\b|\bTivibu\s*2\b", "ad": "TİVİBU SPOR 2 HD", "epg_id": "TivibuSpor.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 49, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tivibu_Spor_logo.png/800px-Tivibu_Spor_logo.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-2.m3u8"},
     {"regex": r"\bTivibu\s*Spor\s*3\b|\bTivibu\s*3\b", "ad": "TİVİBU SPOR 3 HD", "epg_id": "TivibuSpor.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 50, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tivibu_Spor_logo.png/800px-Tivibu_Spor_logo.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-3.m3u8"},
     {"regex": r"\bTabii\s*TV\b|\bTabii\b(?!.*(?:Spor))", "ad": "TABİİ TV HD (TRT Tabii)", "epg_id": "TabiiTV.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 51, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8"},
-    {"regex": r"\bTabii\s*Spor\s*5\b", "ad": "TABİİ SPOR 5 HD", "epg_id": "TabiiSpor5.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 52, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8"},
-    {"regex": r"\bTabii\s*Spor\s*6\b", "ad": "TABİİ SPOR 6 HD", "epg_id": "TabiiSpor6.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 53, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8"},
-    {"regex": r"\bTabii\s*Spor\s*7\b", "ad": "TABİİ SPOR 7 HD", "epg_id": "TabiiSpor7.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 54, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8"},
+    {"regex": r"\bTabii\s*Spor\b(?!.*(?:1|2|3|4|5|6|7))", "ad": "TABİİ SPOR HD (Canlı Maç)", "epg_id": "TabiiSpor.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 52, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*1\b|\btabiispor1\b", "ad": "TABİİ SPOR 1 HD", "epg_id": "TabiiSpor1.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 53, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor1/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*2\b|\btabiispor2\b", "ad": "TABİİ SPOR 2 HD", "epg_id": "TabiiSpor2.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 54, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor2/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*3\b|\btabiispor3\b", "ad": "TABİİ SPOR 3 HD", "epg_id": "TabiiSpor3.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 55, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor3/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*4\b|\btabiispor4\b", "ad": "TABİİ SPOR 4 HD", "epg_id": "TabiiSpor4.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 56, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor4/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*5\b|\btabiispor5\b", "ad": "TABİİ SPOR 5 HD", "epg_id": "TabiiSpor5.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 57, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor5/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*6\b|\btabiispor6\b", "ad": "TABİİ SPOR 6 HD", "epg_id": "TabiiSpor6.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 58, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor6/playlist.m3u8"},
+    {"regex": r"\bTabii\s*Spor\s*7\b|\btabiispor7\b", "ad": "TABİİ SPOR 7 HD", "epg_id": "TabiiSpor7.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 59, "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor7/playlist.m3u8"},
     {"regex": r"\bDAZN\s*1\b", "ad": "DAZN 1 HD", "epg_id": "DAZN1.de", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 55, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_Logo.svg/800px-DAZN_Logo.svg.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sdazn1/playlist.m3u8?_HLS_skip=YES"},
     {"regex": r"\bDAZN\s*2\b", "ad": "DAZN 2 HD", "epg_id": "DAZN2.de", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 56, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_Logo.svg/800px-DAZN_Logo.svg.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sdazn2/playlist.m3u8?_HLS_skip=YES"},
     {"regex": r"\bEuro\s*Sport\s*1\b|\bEurosport\s*1\b", "ad": "EUROSPORT 1 HD", "epg_id": "Eurosport1.tr", "kategori": "3. TKGS - Spor & Canlı Maç / UFC", "chno": 57, "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Eurosport_1_logo.svg/800px-Eurosport_1_logo.svg.png", "default_url": "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/seurosport1/playlist.m3u8?_HLS_skip=YES"},
@@ -333,6 +338,50 @@ UCOMIST_KANAL_HARITASI = {
     2033: {"ad": "HISTORY 2 (H2) HD (Türkçe)", "kategori": "4. Belgesel Dünyası (Türkçe Dublaj)"},
 }
 
+def tabii_spor_canli_kaziyici():
+    """XSport, TRT ve Selçuk sunucularından en güncel Tabii Spor stream linklerini otomatik bulur ve kazır"""
+    base_stream = "https://dga1op10s1u3lea.82250d06d39d38.click/live/"
+    try:
+        def check_xs(idx):
+            u = f"https://www.xsportv{idx}.xyz/"
+            try:
+                r = requests.get(u, headers=HEADERS, timeout=2.5, verify=False)
+                if r.status_code == 200:
+                    return u
+            except:
+                pass
+            return None
+
+        with ThreadPoolExecutor(max_workers=20) as ex:
+            futs = [ex.submit(check_xs, i) for i in range(50, 100)]
+            for f in as_completed(futs):
+                res = f.result()
+                if res:
+                    r_site = requests.get(res, headers=HEADERS, timeout=4, verify=False)
+                    m_p = re.search(r'data-url=["\']([^"\']*?tabiispor[^"\']*?)["\']', r_site.text, re.I)
+                    if m_p:
+                        r_p = requests.get(m_p.group(1), headers=HEADERS, timeout=4, verify=False)
+                        m_b = re.search(r"this\.baseStreamUrl\s*=\s*'(.*?)'", r_p.text)
+                        if m_b:
+                            base_stream = m_b.group(1)
+                    break
+    except Exception:
+        pass
+
+    tabii_listesi = [
+        ("TABİİ TV HD (TRT Tabii)", "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR HD (Canlı Maç)", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 1 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor1/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 2 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor2/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 3 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor3/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 4 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor4/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 5 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor5/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 6 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor6/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 7 HD", f"https://1.nejyoner19.workers.dev/?url={base_stream}tabiispor7/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+    ]
+    return tabii_listesi
+
+
 def kanallari_tara_sirala_ve_filtrele(config):
     kaynaklar = config.get("kaynak_listeler", [])
     threads = config.get("ayarlar", {}).get("kontrol_thread_sayisi", 60)
@@ -352,8 +401,8 @@ def kanallari_tara_sirala_ve_filtrele(config):
                 "raw_group": item["kategori"]
             })
 
-    # 0.5 Adım: Canlı maç ve spor yayıncılarından (Ucomist, Atomsport, Sporcafe, Selcuk, MSS) dinamik kazı ve ekleme
-    print("\n[0.5/3] Canlı maç yayıncıları ve sunucularından (Ucomist, Atomsport, Sporcafe, Selçuk) kanallar taranıyor...")
+    # 0.5 Adım: Canlı maç ve spor yayıncılarından (Ucomist, Tabii Spor, Atomsport, Sporcafe, Selcuk, MSS) dinamik kazı ve ekleme
+    print("\n[0.5/3] Canlı maç yayıncıları ve sunucularından (Ucomist, Tabii Spor 1-7, Atomsport, Sporcafe, Selçuk) kanallar taranıyor...")
     
     # 1. Ucomist Cluster Kanalları
     for cid, info in UCOMIST_KANAL_HARITASI.items():
@@ -366,7 +415,18 @@ def kanallari_tara_sirala_ve_filtrele(config):
             "raw_group": info["kategori"]
         })
 
-    # 2. Atomsport / Corestream Maç Kanalları
+    # 2. Tabii Spor Kanalları (Dinamik Kazıyıcı)
+    tabii_ekle = tabii_spor_canli_kaziyici()
+    for ad, u, kat in tabii_ekle:
+        tum_kanallar.append({
+            "extinf": f'#EXTINF:-1 tvg-id="" tvg-logo="" group-title="{kat}",{ad}',
+            "url": u,
+            "raw_name": ad,
+            "logo": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png",
+            "raw_group": kat
+        })
+
+    # 3. Atomsport / Corestream Maç Kanalları
     CANLI_MAC_SAGLAYICILARI = [
         ("beIN SPORTS 1 HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-1.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("beIN SPORTS 1 HD (Yedek)", "https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
@@ -391,6 +451,14 @@ def kanallari_tara_sirala_ve_filtrele(config):
         ("UFC FIGHT PASS HD", "https://1.nejyoner19.workers.dev/?url=https://one.c37c5ccda41b4ac6.click/live/sufcfightpass/playlist.m3u8?_HLS_skip=YES", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("beIN SPORTS HABER HD", "https://cdn.tecostream.xyz/Bein_Spor_Haber.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("NetSpor beIN SPORTS 1 HD", "https://netspor.tecostream.xyz/bs1.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR HD (Canlı Maç)", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 1 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor1/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 2 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor2/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 3 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor3/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 4 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor4/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 5 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor5/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 6 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor6/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
+        ("TABİİ SPOR 7 HD", "https://1.nejyoner19.workers.dev/?url=https://dga1op10s1u3lea.82250d06d39d38.click/live/tabiispor7/playlist.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("TABİİ TV HD (TRT)", "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("TRT SPOR HD (Canlı Maç)", "https://tv-trtspor1.medya.trt.com.tr/master.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
         ("TRT SPOR YILDIZ HD", "https://tv-trtspor2.medya.trt.com.tr/master.m3u8", "3. TKGS - Spor & Canlı Maç / UFC"),
