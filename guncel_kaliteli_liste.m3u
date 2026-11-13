@@ -21,8 +21,6 @@ https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTINF:-1 tvg-chno="16" tvg-id="TRT.1.HD.tr" tvg-name="TRT 4K ULTRA HD" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TRT_4K_logo_%282021-%29.svg/800px-TRT_4K_logo_%282021-%29.svg.png",TRT 4K ULTRA HD
 https://trn03.tulix.tv/gt-trt-4k/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-chno="17" tvg-id="ATV.tr" tvg-name="ATV AVRUPA" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png",ATV AVRUPA
-https://trn03.tulix.tv/gt-atv-avrupa-tv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
 #EXTINF:-1 tvg-chno="18" tvg-id="KANAL.D.tr" tvg-name="EURO D" group-title="1. TKGS - Ulusal Kanallar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kanal_D_logo.svg/800px-Kanal_D_logo.svg.png",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:-1 tvg-chno="20" tvg-id="TRT.HABER.HD.tr" tvg-name="TRT HABER HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/800px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",TRT HABER HD
@@ -46,13 +44,21 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-chno="35" tvg-id="TRT.WORLD.HD.tr" tvg-name="TRT WORLD HD" group-title="2. TKGS - Haber Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TRT_World_logo.svg/800px-TRT_World_logo.svg.png",TRT WORLD HD
 https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
 #EXTINF:-1 tvg-chno="40" tvg-id="beINSPORTS1.tr" tvg-name="beIN SPORTS 1 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 1 HD (Canlı Maç)
-https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-11.m3u8
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-1.m3u8
 #EXTINF:-1 tvg-chno="41" tvg-id="beINSPORTS2.tr" tvg-name="beIN SPORTS 2 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 2 HD (Canlı Maç)
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-2.m3u8
+#EXTINF:-1 tvg-chno="42" tvg-id="beINSPORTS3.tr" tvg-name="beIN SPORTS 3 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 3 HD (Canlı Maç)
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-3.m3u8
 #EXTINF:-1 tvg-chno="43" tvg-id="beINSPORTS4.tr" tvg-name="beIN SPORTS 4 HD (Canlı Maç)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BeIN_Sports_logo.svg/800px-BeIN_Sports_logo.svg.png",beIN SPORTS 4 HD (Canlı Maç)
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-4.m3u8
+#EXTINF:-1 tvg-chno="44" tvg-id="SSPORT.tr" tvg-name="S SPORT 1 HD (Premier Lig & La Liga)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://i.imgur.com/7w8hLKg.png",S SPORT 1 HD (Premier Lig & La Liga)
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/s-sport.m3u8
+#EXTINF:-1 tvg-chno="45" tvg-id="SSPORT2.tr" tvg-name="S SPORT 2 HD (EuroLeague & Serie A)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://i.imgur.com/7w8hLKg.png",S SPORT 2 HD (EuroLeague & Serie A)
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/s-sport-2.m3u8
 #EXTINF:-1 tvg-chno="48" tvg-id="TivibuSpor.tr" tvg-name="TİVİBU SPOR 1 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tivibu_Spor_logo.png/800px-Tivibu_Spor_logo.png",TİVİBU SPOR 1 HD
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-1.m3u8
+#EXTINF:-1 tvg-chno="49" tvg-id="TivibuSpor.tr" tvg-name="TİVİBU SPOR 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tivibu_Spor_logo.png/800px-Tivibu_Spor_logo.png",TİVİBU SPOR 2 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-2.m3u8
 #EXTINF:-1 tvg-chno="50" tvg-id="TivibuSpor.tr" tvg-name="TİVİBU SPOR 3 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tivibu_Spor_logo.png/800px-Tivibu_Spor_logo.png",TİVİBU SPOR 3 HD
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-3.m3u8
 #EXTINF:-1 tvg-chno="51" tvg-id="TabiiTV.tr" tvg-name="TABİİ TV HD (TRT Tabii)" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.png",TABİİ TV HD (TRT Tabii)
@@ -79,6 +85,8 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
 #EXTINF:-1 tvg-chno="63" tvg-id="HTSPOR.tr" tvg-name="HT SPOR HD" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://i.imgur.com/ZhkZzLf.png",HT SPOR HD
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8
+#EXTINF:-1 tvg-chno="63" tvg-id="TRT.2.tr" tvg-name="TRT 2 KÜLTÜR & TARİH BELGESEL HD" group-title="4. Belgesel Dünyası (Türkçe Dublaj)" tvg-logo="https://i.imgur.com/iOCQdyD.png",TRT 2 KÜLTÜR & TARİH BELGESEL HD
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="64" tvg-id="EkolSport.tr" tvg-name="EKOL SPORTS HD" group-title="3. TKGS - Spor & Canlı Maç / UFC" tvg-logo="https://i.imgur.com/ZhkZzLf.png",EKOL SPORTS HD
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?autoplay=1
 #EXTINF:-1 tvg-chno="64" tvg-id="TGRT.BELGESEL.tr" tvg-name="TGRT BELGESEL HD" group-title="4. Belgesel Dünyası (Türkçe Dublaj)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TGRT_Haber_logo.svg/800px-TGRT_Haber_logo.svg.png",TGRT BELGESEL HD
@@ -97,7 +105,13 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-chno="90" tvg-id="TRT.MÜZİK.tr" tvg-name="TRT MÜZİK HD" group-title="6. TKGS - Müzik Kanalları" tvg-logo="https://i.imgur.com/JgUzRH8.png",TRT MÜZİK HD
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="100" tvg-name="beIN SPORTS 5 HD / MAX 1" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS 5 HD / MAX 1
+#EXTINF:-1 tvg-chno="100" tvg-name="SMART SPOR 2 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 2 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor-2.m3u8
+#EXTINF:-1 tvg-chno="101" tvg-name="TİVİBU SPOR 4 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",TİVİBU SPOR 4 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/tivibu-spor-4.m3u8
+#EXTINF:-1 tvg-chno="102" tvg-name="SMART SPOR 1 HD" group-title="3. TKGS - Spor & Canlı Maç / UFC",SMART SPOR 1 HD
+https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/smart-spor.m3u8
+#EXTINF:-1 tvg-chno="103" tvg-name="beIN SPORTS 5 HD / MAX 1" group-title="3. TKGS - Spor & Canlı Maç / UFC",beIN SPORTS 5 HD / MAX 1
 https://1.nejyoner19.workers.dev/?url=https://corestream.ronaldovurdu.help//hls/bein-sports-5.m3u8
-#EXTINF:-1 tvg-chno="101" tvg-name="BEYAZ TV HD" group-title="10. Dünya Spor & Eğlence Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Beyaz_TV_logo.svg/800px-Beyaz_TV_logo.svg.png",BEYAZ TV HD
+#EXTINF:-1 tvg-chno="104" tvg-name="BEYAZ TV HD" group-title="10. Dünya Spor & Eğlence Kanalları" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Beyaz_TV_logo.svg/800px-Beyaz_TV_logo.svg.png",BEYAZ TV HD
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
